@@ -1,0 +1,125 @@
+a{
+    text-decoration-line: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+#navJoin{
+ 
+    padding: 12px;
+    background-color:#06bbcc;
+    
+}
+
+a:hover {
+    color: #19d5e6 !important;
+  }
+  .ms-10{
+    margin-left: 10px;
+}
+.bg{
+    background-color: #06bbcc;
+}
+        .jumbotron {
+            background-image: url( images/book.webp);
+            background-position: center; 
+            color: white;
+            height: 300px; 
+            margin-bottom: 12px;
+            opacity: 0.3;
+}
+.main-title{
+    display: none;
+
+}
+.banner{
+    font-size: 160px;
+    color: black;
+}
+.banner h2 {
+        font-size: .25em; 
+        margin: 0; 
+    }
+
+    .text {
+        font-size: 1.2rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    opacity: 0;
+    transition: all 0.5s;
+        }
+
+        .imgs:hover img {
+            transform: scale(1.2);
+            opacity: 0.5; 
+          
+        }
+        
+        .imgs:hover .text {
+            opacity: 1;
+           
+            width: 380px;
+        }
+        
+
+        .imgs {
+            overflow: hidden;
+        }
+        .imgs
+        {
+            display: none;
+        }
+        .imgs img {
+            transition: transform 0.5s;
+            max-width: 100%;
+        }
+        .btn
+        {
+            font-size: 20px;
+        }
+        .card-deck
+        {
+            margin: 20px;
+        }
+        .cards:hover img {
+            transform: scale(1.2);
+            opacity: 0.5; 
+          
+        }
+        
+        
+        .card {
+            overflow: hidden;
+        }
+        .card
+        {
+            display: none;
+        }
+        .card img {
+            transition: transform 0.5s;
+            max-width: 100%;
+        }
+        .item h4{
+            font-size: 30px;
+            font-weight: 900;
+        }
+        .item p{
+            font-size: 30px;
+            font-weight: 600;
+        }
+
+       

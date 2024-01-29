@@ -1,0 +1,80 @@
+
+a{
+    text-decoration-line: none;
+    color: white;
+}
+li{
+    list-style-type: none;
+    margin-left: 20px;
+    
+}
+#navJoin{
+ 
+    padding: 12px;
+    background-color:#06bbcc;
+    
+}
+
+a:hover {
+    color: #19d5e6 !important;
+  }
+  .ms-10{
+    margin-left: 10px;
+}
+.bg{
+    background-color: #06bbcc;
+}
+
+.containerrr {
+    position: relative;
+    font-family: Arial;
+    height: 60vh;
+    background-image: url(images/carousel-1.jpg);
+    background-position: center;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+  
+  
+  .text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.mt{
+    margin-top: 70px;
+}
+.color{
+    color:#06bbcc;
+}
+.divContact{
+    background-color: #06bbcc; 
+    width: 50px;
+    height: 50px;
+}
+.mLeft{
+    margin-left: 10px;
+}
+#btnScroll{
+    bottom: 4px;
+    right: 4px;
+    background-color: #06bbcc;
+    display: none;
+    height: 50px;
+    width: 50px;
+}
+.d-non{
+    display: none;
+}
+.font{
+    font-family: 'Kanit', sans-serif;
+}
+
+@media screen  and(width:500){
+
+} 
+    
